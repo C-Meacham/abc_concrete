@@ -1,3 +1,7 @@
+h1, p {
+    font-family: 'Roboto';
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
