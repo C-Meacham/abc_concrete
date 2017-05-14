@@ -60,6 +60,34 @@ body {
     margin: auto;
 }
 
+/** About Page **/
+.aboutbanner {
+    margin-top: 55px;
+    margin-left: 262px;
+    border-radius: 12%;
+    position: relative;
+    display: block;
+    border-left: solid 5px;
+    border-top: solid 5px;
+    border-top-color: #A52A2A;
+    border-left-color: #A52A2A;
+}
+
+.abouttitle {
+    padding-top: 25px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.aboutul {
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 30px;
+}
+.aboutli {
+    margin: 30px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
