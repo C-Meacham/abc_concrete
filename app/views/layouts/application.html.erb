@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Abcc</title>
+    <title>ABC Concrete</title>
     <%= csrf_meta_tags %>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <div class="navbar">
+        <ul>
+          <div class="navbarul">
+              <li><%= link_to "Home", "/", class: "navbarli" %></li>
+              <li><%= link_to "Who We Are", "/", class: "navbarli"%></li>
+              <li><%= link_to "Our Work", "/", class: "navbarli"%></li>
+              <li><%= link_to "Let's Talk", "/", class: "navbarli"%></li>
+          </div>
+        </ul>
+    </div>
   </head>
 
   <body>

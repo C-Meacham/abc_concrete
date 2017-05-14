@@ -1,5 +1,63 @@
-h1, p {
+/** Navbar CSS **/
+.navbar {
     font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin:0 auto;
+    background-color: #A52A2A;
+    color: white;
+}
+li {
+    display: inline;
+}
+.navbarul {
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbarli {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbarli:hover {
+    color:black;
+}
+
+/** Home Banner **/
+.homebanner {
+    border-radius: 17%;
+    position: relative;
+    display: block;
+    float: left;
+    width: 35%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-left: solid 10px;
+    border-top: solid 10px;
+    border-top-color: #A52A2A;
+    border-left-color: #A52A2A;
+}
+.hometext {
+    padding-top: 65px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+}
+.hometextpara {
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    padding-right: 77px;
+    line-height: 2.5;
+}
+body {
+    background-color: #A9A9A9;
+    margin: auto;
 }
 
 /*
