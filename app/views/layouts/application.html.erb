@@ -11,16 +11,21 @@
     <div class="navbar">
         <ul>
           <div class="navbarul">
-              <li><%= link_to "Home", "/", class: "navbarli" %></li>
-              <li><%= link_to "Who We Are", "/about", class: "navbarli"%></li>
-              <li><%= link_to "Our Work", "/work", class: "navbarli"%></li>
-              <li><%= link_to "Let's Talk", "/contacts/new", class: "navbarli"%></li>
+              <li><%= link_to "Home", root_path, class: "navbarli" %></li>
+              <li><%= link_to "Who We Are", about_path, class: "navbarli"%></li>
+              <li><%= link_to "Our Work", work_path, class: "navbarli"%></li>
+              <li><%= link_to "Let's Talk", new_contact_path, class: "navbarli"%></li>
           </div>
         </ul>
     </div>
   </head>
 
   <body>
+    <div class="containter">
+      <% flash.each do |type, msg| %>
+        <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+      <% end %>
+    </div>
     <%= yield %>
   </body>
 </html>
