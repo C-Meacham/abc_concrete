@@ -2,20 +2,20 @@
     <head>
         <h1 class="contactbanner">We'd love to hear from you!</h1>
         <h2 class="contactbanner">For a free quote contact Travis Babcock</h2>
-        <br>
-        <br>
-        <h2 class="contactcall">Give us a call</h2>
-        <h3 class="contactcontact">555-555-5555</h3>
-        <h3 class="contactcontact">test@example.com</h3>
-        <br>
-        <br>
-        <h2 class="contactcall2">Or, send us a message</h2>
-        <h4 class="contactcall3">(We'll get back to you in a day or so)</h4>
     </head>
     <body>
-        <div class="container">
+        <div class="container contactcontainer">
             <div class="row">
-                <div class="col-md-4 col-md-offset-6">
+                <div class="col-md-6">
+                    <h2 class="contactcall">Give us a call</h2>
+                    <h3 class="contactcontact">555-555-5555</h3>
+                    <h3 class="contactcontact">test@example.com</h3>
+                    <br>
+                    <br>
+                    <h2 class="contactcall2">Or, send us a message</h2>
+                    <h4 class="contactcall3">(We'll get back to you in a day or so)</h4>
+                </div>
+                <div class="col-md-4">
                     <div class="well">
                         <%= form_for @contact do |f| %>
                             <div class="form-group">
@@ -38,7 +38,7 @@
                         <% end %>
                     </div>
                 </div>
-            </div>    
-        </div>        
+            </div>
+        </div>
     </body>
 </html>
